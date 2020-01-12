@@ -7,7 +7,7 @@ const server = new PolarisServer({
     typeDefs,
     resolvers,
     port: polarisProperties.port,
-    applicationLogProperties: {
+    applicationProperties: {
         id: polarisProperties.id,
         name: polarisProperties.name,
         version: polarisProperties.version,
